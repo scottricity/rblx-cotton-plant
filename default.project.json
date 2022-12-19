@@ -1,0 +1,33 @@
+{
+  "name": "rblx-cotton-plant",
+  "tree": {
+    "$className": "DataModel",
+
+	"ReplicatedFirst": {
+		"$path": "./src/ReplicatedFirst",
+		"$ignoreUnknownInstances": true
+	},
+
+    "ReplicatedStorage": {
+      "$path": "./src/ReplicatedStorage",
+	  "$ignoreUnknownInstances": true
+    },
+
+    "ServerScriptService": {
+      "$path": "./src/ServerScriptService",
+	  "$ignoreUnknownInstances": true
+    },
+
+    "StarterPlayer": {
+		"$className": "StarterPlayer",
+		"StarterCharacterScripts": {
+			"$className": "StarterCharacterScripts",
+			"$path": "./src/StarterPlayer/StarterCharacterScripts"
+		},
+		"StarterPlayerScripts": {
+			"$className": "StarterPlayerScripts",
+			"$path": "./src/StarterPlayer/StarterPlayerScripts"
+		}
+    }
+  }
+}
